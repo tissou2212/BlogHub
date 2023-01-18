@@ -49,5 +49,11 @@ hr {
     color: var(--dark);
 }
 
-
-
+footer {
+	position: absolute;
+	text-align: center;
+	color: white;
+	background-color: var(--dark);
+	height: 5rem;
+	width: 100%;
+}
