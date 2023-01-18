@@ -1,0 +1,35 @@
+/* header */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    place-items: center start;
+    line-height: 3.5rem;
+    margin: 0.5rem auto;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li a {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+header a {
+    display: block;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header .logo>i {
+    color: var(--primary);
+    padding-right: 0.5rem;
+    font-size: 2.5rem;
+}
