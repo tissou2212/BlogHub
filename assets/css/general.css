@@ -50,10 +50,10 @@ hr {
 }
 
 footer {
+	padding: 2rem;
 	position: absolute;
 	text-align: center;
-	color: white;
-	background-color: var(--dark);
+	color: var(--dark);
 	height: 5rem;
 	width: 100%;
 }
